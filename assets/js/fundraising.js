@@ -118,11 +118,12 @@ window.onload = async function() {
                 console.error('An error occurred: ', error.message);
             }
         };
-    //Below makes the copying of the contract ID possible
+    
 
     
 };
 
+//Below makes the copying of the contract ID possible
 async function copyContractId() {
     var copyText = document.getElementById("contractId").value;
     try {
