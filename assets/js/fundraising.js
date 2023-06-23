@@ -17,8 +17,8 @@ window.onload = async function() {
     let response = await fetch('assets/js/contractABI.json');
     let abi = await response.json();
 
-    // Initialize your contract
-    const contractAddress = '0x82512bFa9F266CE3D6c17BC92039daB0F63710A4';
+    // Initialize your ERC-20 contract
+    const contractAddress = '0x7585028c2Ba5E3686dbdFc704Bd754941baD4068';
     let contract = new web3.eth.Contract(abi, contractAddress);
 
     // Fetch ETH price when the page loads and store it in localStorage
