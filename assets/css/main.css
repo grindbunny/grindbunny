@@ -3982,7 +3982,7 @@ ul.icons li a.icon.brands.fa-discord {
 		/* contract ID buttons*/
 		.contract-id-input {
 			width: 100% !important; /* Adjust as needed */
-			height: 10px !important; /* Adjust as needed */
+			height: 40px !important; /* Adjust as needed */
 			background-color: #f0f0f0; /* Replace with the color you want */
 			color: #000; /* Replace with the color you want for the text */
 			border: none; /* This removes the default border */

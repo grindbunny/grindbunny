@@ -17,8 +17,8 @@ window.onload = async function() {
     let response = await fetch('assets/js/contractABI.json');
     let abi = await response.json();
 
-    // Initialize your ERC-20 contract
-    const contractAddress = '0x7585028c2Ba5E3686dbdFc704Bd754941baD4068';
+    // Initialize your fundraising contract
+    const contractAddress = '0x7f2365A04B4bD1c3A09F4fDF536026d3fa6866fB';
     let contract = new web3.eth.Contract(abi, contractAddress);
 
     // Fetch ETH price when the page loads and store it in localStorage
@@ -91,7 +91,7 @@ window.onload = async function() {
         // Below Function Adds the token to the wallet, MUST BE UPDATED BEFORE OFFICIAL DEPLOYMENT!
         addTokenBtn.onclick = async function() {
             const tokenAddress = '0xde6B9AAaE403e038c39B7dF856Aab23dE635cE36'; // replace with your token contract address
-            const tokenSymbol = 'SUPER'; // replace with your token symbol
+            const tokenSymbol = 'GBUN'; // replace with your token symbol
             const tokenDecimals = 18; // replace with your token's decimals
             const tokenImage = 'https://raw.githubusercontent.com/grindbunny/grindbunny/main/grindbunnytokenround.png'; // replace with the URL of your token's logo
     
