@@ -6,4 +6,4 @@ Our mission is to develop a community-driven cryptocurrency that supports the sp
 
 GrindBunny is an energetic, determined bunny astronaut, our mascot symbolizing our ambitious community. We're on a collective journey to the stars, powered by blockchain.
 
-For more information, visit our official website at https://grindbunny.github.io/.
+For more information, visit our official website at https://grindbunny.github.io/grindbunny/.
