@@ -93,7 +93,7 @@ window.onload = async function() {
             const tokenAddress = '0xde6B9AAaE403e038c39B7dF856Aab23dE635cE36'; // replace with your token contract address
             const tokenSymbol = 'GBUN'; // replace with your token symbol
             const tokenDecimals = 18; // replace with your token's decimals
-            const tokenImage = 'https://raw.githubusercontent.com/grindbunny/grindbunny/main/images/grindbunnytokenround.png'; // replace with the URL of your token's logo
+            const tokenImage = 'https://raw.githubusercontent.com/grindbunny/grindbunny/main/images/grindbunnytokenround.png?ignoreCache=true'; // use the raw version, the cache makes sure that the image is always loaded into metamask
     
             try {
                 const wasAdded = await ethereum.request({
