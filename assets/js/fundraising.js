@@ -18,7 +18,7 @@ window.onload = async function() {
     let abi = await response.json();
 
     // Initialize your fundraising contract
-    const contractAddress = '0x7f2365A04B4bD1c3A09F4fDF536026d3fa6866fB';
+    const contractAddress = '0x97598d924e8dc390c03d9566c9f92727de2039ad';
     let contract = new web3.eth.Contract(abi, contractAddress);
 
     // Fetch ETH price when the page loads and store it in localStorage
@@ -90,7 +90,7 @@ window.onload = async function() {
 
         // Below Function Adds the token to the wallet, MUST BE UPDATED BEFORE OFFICIAL DEPLOYMENT!
         addTokenBtn.onclick = async function() {
-            const tokenAddress = '0xde6B9AAaE403e038c39B7dF856Aab23dE635cE36'; // replace with your token contract address
+            const tokenAddress = '0x90B9A5CdcF5304714C33FA4a0c25681949eAA2d2'; // replace with your token contract address
             const tokenSymbol = 'GBUN'; // replace with your token symbol
             const tokenDecimals = 18; // replace with your token's decimals
             const tokenImage = 'https://raw.githubusercontent.com/grindbunny/grindbunny/main/images/grindbunnytokenround.png?ignoreCache=true'; // use the raw version, the cache makes sure that the image is always loaded into metamask
